@@ -1,0 +1,157 @@
+.count{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 90px;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(184, 179, 171);
+    
+}
+
+.student{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.course{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.staff{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.location{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.student img{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.student p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.student h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.course p{
+    display: flex;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.course h3{
+display: flex;
+font-size: 30px;
+font-weight: 800;
+margin-top: 20px;
+margin-bottom: 20px;
+align-items: center;
+margin-left: 40px;
+}
+
+.course img{
+display: flex;
+width: 100px;
+height: 100px;
+margin-top: 20px;
+}
+
+
+.staff p{
+    display: flex;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.staff h3{
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.staff img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.location p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+.location h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-right: 55px;
+}
+
+.location{
+    margin-right: 30px;
+}
+
+
+.location img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.card-ys {
+    position: relative;
+    color: black;
+    overflow: hidden; 
+    z-index: 1;
+  }
+  
+  .card-ys::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/assets/hostel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;                             
+    z-index: -1;                                                       
+    border-radius: 12px;
+  }

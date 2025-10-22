@@ -1,0 +1,31 @@
+
+.about-top{
+    margin-top: 170px;
+}
+
+.about-middele{
+    margin-top: 100px;
+}
+
+.about-middele h1{
+    margin-left: 150px;
+}
+
+
+.about-middele img{
+    margin-left: 150px;
+}
+
+.about-middele h2{
+    font-size: 17px;
+    color: rgb(71, 68, 68);
+    margin-left: 90px;
+    margin-right: 840px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-right-img img{
+    margin-left: 765px;
+    margin-top: -600px;
+}

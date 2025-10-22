@@ -1,0 +1,111 @@
+.navbar{
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #550a55;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -80px;
+}
+
+.nav-top{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 45px;
+   list-style: none;
+   height: 40px;
+   color: #fff;
+   margin-left: 350px;
+   cursor: pointer;
+}
+
+.nav-top h3{
+    font-size: 14px;
+}
+
+
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    background-color: #780478;
+    color: #fff;
+    height: 50px;
+    font-size: 16px;
+}
+
+.student{
+    margin-bottom: 17px;
+}
+
+.num1{
+    background-color: rgb(237, 175, 18);
+    padding: 17px 33px;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.num2{
+    
+    font-size: 14px;
+}
+.num3{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    font-size: 100;
+}
+
+.num3 img{
+    border: #a69e9e solid 2px;
+    padding: 6px 5px;
+    width: 20px;
+}
+ 
+.num4{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+
+
+.aicte:hover{
+    color: rgb(237, 175, 18);
+}
+.center:hover{
+    color: rgb(237, 175, 18);
+}
+.coe:hover{
+    color: rgb(237, 175, 18);
+}
+.aishe:hover{
+    color: rgb(237, 175, 18);
+}
+.ariia:hover{
+    color: rgb(237, 175, 18);
+}
+.nirf:hover{
+    color: rgb(237, 175, 18);
+}
+.nisp:hover{
+    color: rgb(237, 175, 18);
+}
+.yukti:hover{
+    color: rgb(237, 175, 18);
+}
+.kapila:hover{
+    color: rgb(237, 175, 18);
+}
+.iic:hover{
+    color: rgb(237, 175, 18);
+}
+.iqac:hover{
+    color: rgb(237, 175, 18);
+}
+.student:hover{
+    color: rgb(237, 175, 18);
+}
+

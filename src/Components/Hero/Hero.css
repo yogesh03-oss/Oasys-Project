@@ -1,0 +1,230 @@
+.hero{
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+}
+
+
+.hero-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+    margin-top: 20px;
+    list-style: none;
+    gap: 25px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.hero-menu h4{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.hero-connect:hover{
+    transform: scale(1.05);
+}
+
+.hero-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+
+.hero-menu img{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+
+
+
+
+.card-yd {
+    position: relative;
+    color: black;
+    overflow: hidden; 
+    z-index: 1;
+  }
+  
+  .card-yd::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/assets/college2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;                             
+    z-index: -1;                                                       
+    border-radius: 12px;
+}
+
+
+
+
+
+.hero-yogeshsri{
+    margin: 50px 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.hero-research{
+    font-size: 35px;
+    box-sizing: border-box;
+    padding: 15px 37px;       
+    background-color: #7c2681;
+    color: #fff;
+    cursor: pointer;
+}
+.hero-study{
+    font-size: 35px;
+    box-sizing: border-box;
+    padding: 15px 37px;   
+    margin-left: -70px;    
+    background-color: #ffffff;
+    color: #7c2681;
+    cursor: pointer;
+}
+
+.hero-box{
+  
+    margin-left: 100px;
+}
+
+.hero-yogesh p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+   
+}
+
+.sri img{
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 560px;
+    height: 350px;
+   
+}
+
+.hero-yogesh p{
+    border: #fff solid 5px;
+    padding: 10px 10px;
+    background-color: #fff;
+    width: 600px; 
+}
+
+
+
+.hero-link {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 20px;
+    border-radius: 50px;
+    color: rgb(224, 231, 231);
+    text-decoration: dashed;
+    background: linear-gradient(267deg, #df8908 -5.09%, #b415ff 98%);
+    position: relative;
+    left: -620px; 
+    top: -70px;
+}
+
+
+.all-hover {
+    box-sizing: border-box;
+    padding: 6px 8px;       
+    border: 3px solid transparent; 
+    border-radius: 10px;
+    transition: border 0.3s;
+    cursor: pointer;
+}
+
+.all-hover:hover {
+    border-color: #7c2681;
+}
+
+
+.all-hover:hover{
+    border-color: #7c2681;
+}
+
+
+
+/*hide idems */
+
+.all-hover{
+    cursor: pointer;
+    position: relative;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+
+}
+
+
+.gallary-hide-room{
+  list-style: none;
+  padding: 0;
+  display: flex;
+   
+}
+
+
+.gallary-hide-room{
+   border: #322d2d solid 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallary-hide-room{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none; 
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  min-width: 100px;
+  border: #322d2d;
+}
+
+.gallary-hide-room{
+    width: 50px;
+}
+
+.gallary-hide-room li{
+   
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+
+.all-hover:hover .gallary-hide-room{
+    display: block;
+    color: #463939;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+
+.gallary-hr{
+    height: 4px;
+    width: 100%;
+   
+    margin-top: -30px;
+    background-color: #B923E1;
+    border: none;
+}
+
+

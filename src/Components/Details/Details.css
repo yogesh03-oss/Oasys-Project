@@ -1,0 +1,172 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+    margin-bottom: 30px;
+   
+}
+
+.home-container h2{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.home-formet p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.home-container{
+    position: relative;
+    
+}
+
+
+.card-bg {
+    position: relative;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    overflow: hidden; 
+    z-index: 1;
+  }
+  
+  .card-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/assets/library2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;                             
+    z-index: -1;                                                       
+    border-radius: 12px;
+  }
+
+  
+.card-b {
+    position: relative;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    overflow: hidden; 
+    z-index: 1;
+  }
+  
+  .card-b::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/assets/locaction_files/hostel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;                             
+    z-index: -1;                                                       
+    border-radius: 12px;
+  }
+
+  
+
+  .card-g {
+    position: relative;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    overflow: hidden; 
+    z-index: 1;
+  }
+  
+  .card-g::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/assets/Spots.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;                             
+    z-index: -1;                                                       
+    border-radius: 12px;
+  }
+
+
+.home-formet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.4s;
+    cursor: pointer;
+    height: 400px;
+}
+
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    margin-bottom: 80px;
+
+    
+   
+}
+
+.home-formet{
+    background-color: #c1c1c9;
+    border-color: rgb(75, 64, 64);
+}
+  
+
+  
+    
+.home-formet h3{
+    font-size: 28px;
+    font-weight: 600;
+    background: linear-gradient(270deg, #e6c18b 50%, #a87cbd 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 60px;
+}
+
+.home-formet h2{
+    margin-bottom: 50%;
+    font-size: 38px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.home-formet p{
+    color: rgb(26, 19, 19);
+    font-size: 20px;
+    line-height: 40px;
+    max-width: 250px;
+}
+
+
+.home-formet:hover{
+    border: 2px solid #a87cbd;
+   
+    transform: scale(1.05);
+    transition: 0.4s;
+}

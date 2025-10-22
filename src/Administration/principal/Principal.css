@@ -1,0 +1,190 @@
+.principal-top img{
+    margin-left: 135px;
+}
+
+.principal-top-menu{
+    display: flex;
+    margin-top: -100px;
+    margin-left: 500px;
+    gap: 30px;
+     font-size: 17px;
+    cursor: pointer;
+}
+
+.gallary-hover-menu{
+    margin-top: 8px;
+}
+
+.principal-top{
+    width: 100%;
+    height: 400px;;
+    margin-top: 120px;
+}
+
+.principal-top-item{
+    justify-content: center;
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+
+.principal-top-item h1{
+     font-size: 50px;
+    font-weight: 600;
+    color: #351a3a;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.principal-top-item h4{
+     font-size: 20px;
+    font-weight: 550;
+    border: solid #fff 2px;
+    background-color: #fff;
+    color: #000;
+    width: 210px;
+    gap: 7px;
+    padding: 15px 0;
+    padding-left: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card-ad {
+    position: relative;
+    color: black;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.card-ad::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/assets/Photos/Gra back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.adm {
+    box-sizing: border-box;
+    padding: 8px 8px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: border 0.3s;
+    cursor: pointer;
+
+}
+
+.adm:hover {
+    border-color: #7c2681;
+}
+
+/*middle*/
+
+
+.principal-middle-top{
+    background-color: #777373;
+    color: #fff;
+    height: 370px;
+    font-family: sans-serif;
+}
+
+.principal-middle-menu{
+    display: flex;
+    margin-left: 400px;
+    
+}
+
+.principal-middle-menu-photo img{
+    margin-top: 190px;
+    margin-bottom: -70px;
+    height: 210px;
+    width: 250px;
+}
+
+.principal-middle-menu-child{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.principal-middle-menu-child h3{
+    font-size: 23px;
+    font-weight: 470;
+  
+}
+
+.principal-middle-menu-child h1{
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+
+.principal-middle-menu-child h2{
+    margin-top: 11px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.principal-middle-menu-contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.principal-mail-icon{
+    width: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.principal-middle-menu-contact p{ 
+    margin-top: 30px;
+    font-size: 22px;
+    
+}
+
+
+.principal-call-icon{
+    margin-top: 33px;
+    width: 30px;
+}
+
+.principal-middle-para{
+    display: flex;
+    font-size: 25px;
+    padding-left: 500px;
+    padding-right: 150px;
+    font-family: "smcp", "zero";
+    color: #887676;
+}
+
+.principal-middle-menu-photo img{
+    margin-left: -300px;
+    margin-top: -200px;
+    border: #443e3e solid 2px;
+}
+
+.principal-middle-menu-item{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-left: -20px;
+}
+
+.principal-middle-menu-item h1{
+    font-size: 40px;
+    color: #7c2681;
+    margin-top: 40px;
+}
+
+.principal-middle-menu-item img {
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
