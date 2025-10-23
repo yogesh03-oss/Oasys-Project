@@ -13,42 +13,52 @@ const Director = () => {
 
   return (
     <div className='director'>
-      <div className="director-top card-ad">
-        <img src={logo} alt="" />
-          <ul className="gallary-top-menu">
-            <h4 className="pic" onClick={() => navigate("/")}>
-              HOME
-            </h4>
-            <h4 className="pic" onClick={() => navigate('/About')}>ABOUT US</h4>
-            <h4 className="all-hover">
-              COURSES
-              <div className="gallary-hide-room">
-                <hr className="gallary-hr" />
-                <ul className="dropdown">
-                  <li onClick={() => navigate("/UG")}>UG Cources</li>
-                  <li onClick={() => navigate("/PG")}>PG Cources</li>
-                </ul>
+      <div className="director-top">
+        <div className="ug card-ad">
+              <img src={logo} alt="Logo" />
+              <div className="pg-top-menu">
+                <ul className="hero-menu">
+                <li className="all-hover" onClick={() => navigate('/')}>HOME</li>
+                <li className="all-hover" onClick={() => navigate('/About')}>ABOUT US</li>
+      
+                <h4 className="all-hover">
+                  COURSES
+                  <div className="gallary-hide-room">
+                    <hr className='gallary-hr' />
+                    <ul className="dropdown">
+                      <li onClick={() => navigate('/UG')}>UG Cources</li>
+                      <li onClick={() => navigate('/PG')}>PG Cources</li>
+                    </ul>
+                  </div>
+                </h4>
+                <h4 className="all-hover">
+                  ADMINISTRATION
+                  <div className="gallary-hide-room">
+                    <hr className='gallary-hr' />
+                    <ul className="dropdown">
+                      <li onClick={() => navigate('/Chairman')}>Chairman</li>
+                      <li onClick={() => navigate('/Principal')}>Principle</li>
+                      <li onClick={() => navigate('/Director')}>Director</li>
+                    </ul>
+                  </div>
+                </h4>
+      
+                <li className="all-hover">ADMISSION</li>
+                <li className="all-hover" onClick={() => navigate('/Gallary')}>GALLARY</li>
+                <li className="all-hover" onClick={() => navigate('/Contact')}>CONTACT US</li>
+              </ul>
               </div>
-            </h4>
-
-            <h4 className="all-hover">
-              ADMINISTRATION
-              <div className="gallary-hide-room">
-                <hr className="gallary-hr" />
-                <li onClick={() => navigate("/Chairman")}>Chairman</li>
-                <li onClick={() => navigate("/Principal")}>Principle</li>
-                <li onClick={() => navigate("/Director")}>Director</li>
+      
+              <div className="ug-top-item">
+                <h1>Director</h1>
+                <h4>
+                  <span className="ug-home" onClick={() => navigate("/")}>
+                    Home
+                  </span>
+                  /<span className="ug-ug"> Director</span>
+                </h4>
               </div>
-            </h4>
-            <h4 className="pic" onClick={() => navigate('/#')}>ADMISSION</h4>
-            <h4 className="pic" onClick={() => navigate('/Gallary')}>GALLARY</h4>
-            <h4 className="pic" onClick={() => navigate('/Contact')}>CONTACT US</h4>
-          </ul>
-
-        <div className="director-top-item">
-          <h1>Director</h1>
-          <h4><span className='director-home' onClick={() => navigate('/')}>Home</span>  /  <span className='director-chairman'>MD, Message From M.D</span></h4>
-        </div>
+            </div>
 
       </div>
 

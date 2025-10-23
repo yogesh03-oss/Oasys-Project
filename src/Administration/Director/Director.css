@@ -60,21 +60,7 @@
     z-index: 1;
 }
 
-.card-ad::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('/src/assets/Photos/Gra back.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.5;
-    z-index: -1;
-    border-radius: 12px;
-}
+
 
 .adm {
     box-sizing: border-box;
