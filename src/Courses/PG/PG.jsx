@@ -90,16 +90,19 @@ const PG = () => {
 
         <div className="ug-dept">
           <div className="ug-dept-menu">
-            <div className="ug-dept-list">
-              <h1>Master of BusinessAdministration</h1>
+            <div className="pg-dept-list">
+             <div className="ug-dept-list">
+              <h1>Master of Business Administration</h1>
               <h3>
                 MBA Programme which is aimed at providing a comprehensive
                 coverage of all important areas and disciplines
               </h3>
+               </div>
             </div>
           </div>
         </div>
       </div>
+     
 
       <Enquiry />
     </div>

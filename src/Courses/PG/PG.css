@@ -142,7 +142,7 @@
     flex-direction: column;
     justify-content: center;
     height: 300px;
-    width: 200px;
+    width: 230px;
     padding: 30px 40px;
     gap: 15px;
     border-radius: 10px;
@@ -151,8 +151,14 @@
     cursor: pointer;
 }
 
+.pg-dept-list{
+    margin-left: 250px;
+}
+
+
+
 .ug-dept-list h1{
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 800;
     background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
     background-clip: text;
